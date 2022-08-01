@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KOSTZY</title>
+	<link rel="stylesheet" href="assets/styles/style.css">
+	<link rel="stylesheet" href="assets/styles/lightslider.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/lightslider.js"></script>
+</head>
+<body id="home">
+	<!-- Header -->
+	<header>
+		<nav class="navbar-desktop">
+			<!-- Navbar-Mobile -->
+			<div class="hidden">
+				<a href="#home" class="">KOSTZY</a>
+				<i onclick="toggleMenu()" class="menubtn" id="btnMenu"><span class="material-symbols-outlined">menu</span></i>
+			</div>
+			<!-- Navbar-Desktop -->
+			<ul id="navbar-menu" class="navbar-ul">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#kamar">Kamar</a></li>
+				<li onclick="myFunction()" class="dropbtn" id="dropdown">Layanan</li>
+				<!-- Dropdown -->
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#">Laundry</a>
+					<a href="#">Titip Barang</a>
+					<a href="#">Antar Barang</a>
+				</div>
+				<li><a href="#wisata">Hubungi Kami</a></li>
+			</ul>
+		</nav>
+		<div class="jumbotron">
+			<h1>KOSTZY</h1>
+			<p>BINGUNG NGEKOS? KOSZTY-IN AJA</p>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Main -->
+	<main>
+		<div id="content">
+			<article id="" class="card product-slide">
+				<ul id="autoWidth" class="cs-hidden">
+					<!-- Item 1 -->
+					<li class="item-a">
+						<div class="product">
+							<div class="product-img">
+								<img src="assets/image/kamar/1.png" alt="sejarah">
+							</div>
+							<div class="detail-product">
+								<div class="product-desc">
+									<a href="">Kost Murah</a>
+									<span>Malang, Jawa Timur</span>
+								</div>
+								<div class="price">
+									<h2>300K/month</h2>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!-- Item 2 -->
+					<li class="item-b">
+						<div class="product">
+							<div class="product-img">
+								<img src="assets/image/kamar/2.jpg" alt="sejarah">
+							</div>
+							<div class="detail-product">
+								<div class="product-desc">
+									<a href="">Kost Biasa</a>
+									<span>Malang, Jawa Timur</span>
+								</div>
+								<div class="price">
+									<h2>450K/month</h2>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!-- Item 3 -->
+					<li class="item-c">
+						<div class="product">
+							<div class="product-img">
+								<img src="assets/image/kamar/3.jpg" alt="sejarah">
+							</div>
+							<div class="detail-product">
+								<div class="product-desc">
+									<a href="">Kost Mahal</a>
+									<span>Malang, Jawa Timur</span>
+								</div>
+								<div class="price">
+									<h2>600K/month</h2>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!-- Item 4 -->
+					<li class="item-d">
+						<div class="product">
+							<div class="product-img">
+								<img src="assets/image/kamar/4.jpeg" alt="sejarah">
+							</div>
+							<div class="detail-product">
+								<div class="product-desc">
+									<a href="">Kost Sultan</a>
+									<span>Malang, Jawa Timur</span>
+								</div>
+								<div class="price">
+									<h2>600K/month</h2>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!-- Item 5 -->
+					<li class="item-e">
+						<div class="product">
+							<div class="product-img">
+								<img src="assets/image/kamar/5.jpg" alt="sejarah">
+							</div>
+							<div class="detail-product">
+								<div class="product-desc">
+									<a href="">Kost Rakyat</a>
+									<span>Malang, Jawa Timur</span>
+								</div>
+								<div class="price">
+									<h2>600K/month</h2>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</article>
+			<!-- Tentang Kami -->
+			<article id="sejarah" class="card">
+				<img src="assets/image/about-us.png" class="featured-image" alt="sejarah">
+				<p>Kostzy adalah Aplikasi Pencari Kos di Indonesia. Kostzy sudah tersedia di beberapa provinsi seperti Jawa Barat, Jawa Tengah, Jawa Timur, Bali, dan Beberapa Provinsi lainnya.</p>
+			</article>
+		</div>
+		<!-- Aside -->
+		<aside>
+			<article class="profile card">
+				<!-- Profile Img -->
+				<header>
+					<h2>Profile</h2>
+					<figure>
+						<img src="assets/image/profile.jpg">
+					</figure>
+				</header>
+				<!-- Profile Description -->
+				<section class="biodata">
+					<table>
+						<tr class="tr-flex">
+							<th>Yovindo Ardana Wijanarko</th>
+							<td>Rekayasa Perangkat Lunak</td>
+							<td>Fresh Graduate</td>
+							<th>Malang, Jawa Timur</th>
+							<th>@yovindoardanaw</th>
+						</tr>
+					</table>
+				</section>
+			</article>
+		</aside>
+		<!-- End Aside -->
+	</main>
+	<!-- End Main -->
+
+	<!-- Footer -->
+	<footer>
+		<p>Toothlesss &#169; 2022</p>
+	</footer>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
